@@ -19,7 +19,7 @@ const Intro = () => {
                         Passionate about creating scalable, user-friendly applications, with a strong <br />
                         foundation in Data Structures and Algorithms, and a quick learner with a growth mindset.
                     </p>
-                    <div className="flex justify-center items-end gap-4 h-56">
+                    <div className="flex justify-center items-end gap-4 h-48">
                         <a className='px-8 py-4  bg-black text-white transition duration-300 cursor-pointer
                          hover:bg-amber-600 '>
                             <Link to="about"
