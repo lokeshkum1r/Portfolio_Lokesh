@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect } from "react";
 import { Element } from "react-scroll";
 import Navbar from './component/Navbar'
 import Intro from './component/Intro'
@@ -7,6 +7,11 @@ import Skills from './component/Skills'
 import About from './component/About'
 
 function App() {
+  useEffect(() => {
+    window.onbeforeunload = () => {
+      window.scrollTo(0, 0);
+    };
+  }, []);
   return (
     <>
       <Navbar />
