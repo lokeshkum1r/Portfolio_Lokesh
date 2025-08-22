@@ -81,7 +81,7 @@ export default function Navbar() {
             }`}
           style={{ transformOrigin: "top" }}
         >
-         <ul className="bg-black bg-opacity-95 rounded shadow-lg flex flex-col justify-around">
+         <ul className="bg-black bg-opacity-95 rounded shadow-lg flex flex-col justify-around p-3">
             {menuItems.map((item) => (
               <li
                 key={item}
