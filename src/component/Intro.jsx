@@ -25,7 +25,7 @@ const Intro = () => {
                                 smooth={true}
                                 duration={500}
                                 offset={-70}
-                                className='px-8 py-4  bg-black text-white transition duration-300 cursor-pointer
+                                className='px-8 py-4  bg-black text-white transition duration-300 cursor-pointer select-none
                          hover:bg-amber-600 '
                             >
                                 More About Me
@@ -36,7 +36,7 @@ const Intro = () => {
                                 smooth={true}
                                 duration={500}
                                 offset={-70}
-                                className='px-8 py-4 bg-white text-black border border-black transition duration-200
+                                className='px-8 py-4 bg-white text-black border border-black transition select-none duration-200
                          cursor-pointer hover:bg-black hover:text-white'
                             >
                             Get In Touch
