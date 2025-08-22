@@ -59,13 +59,13 @@ const Intro = () => {
                         Information Technology with hands-on experience in full-stack web development.
                     </p>
 
-                    <div className="flex flex-col justify-center gap-4 h-96">
+                    <div className="flex flex-col justify-center gap-12 h-96">
                         <a >
                            <Link to="about"
                                 smooth={true}
                                 duration={500}
                                 offset={-70}
-                               className='px-8 py-4  bg-black text-white transition duration-300 cursor-pointer
+                                className='px-32 py-4  bg-black text-white transition duration-300 cursor-pointer
                          hover:bg-amber-600 '
                             >
                                 More About Me
@@ -76,7 +76,7 @@ const Intro = () => {
                                 smooth={true}
                                 duration={500}
                                 offset={-70}
-                                className='px-8 py-4 bg-white text-black border border-black border-solid 
+                                className='px-32 py-4 bg-white text-black border border-black border-solid 
                         transition duration-200 cursor-pointer hover:bg-black hover:text-white'
                             >
                             Get In Touch
