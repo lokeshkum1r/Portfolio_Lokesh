@@ -98,7 +98,7 @@ export default function Navbar() {
               spy={true} // track scroll position
               onSetActive={() => setActiveItem(item)} // updates activeItem on scroll
               className={`transition cursor-pointer ${activeItem === item
-              ? "bg-blue-400"
+              ? "text-orange-400"
               : "hover:text-gray-400"
               }`}
             >
