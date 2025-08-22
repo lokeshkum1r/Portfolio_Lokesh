@@ -81,32 +81,35 @@ export default function Navbar() {
             }`}
           style={{ transformOrigin: "top" }}
         >
-          <ul className="bg-black bg-opacity-95 rounded shadow-lg flex flex-col justify-around">
-            {menuItems.map((item) => (
-              <li
-                key={item}
-                onClick={() => {
-                  setActiveItem(item);
-                  setDropdownOpen(false); // close dropdown on click
-                }}
-              >
-               <Link
-              to={item.toLowerCase()} // match section id
-              smooth={true}
-              duration={500}
-              offset={-70} // adjust for navbar height
-              spy={true} // track scroll position
-              onSetActive={() => setActiveItem(item)} // updates activeItem on scroll
-              className={`transition cursor-pointer ${activeItem === item
-              ? "text-orange-400"
-              : "hover:text-gray-400"
-              }`}
-            >
-              {item}
-            </Link>
-              </li>
-            ))}
-          </ul>
+         <ul className="bg-black bg-opacity-95 rounded-xl shadow-lg flex flex-col py-3">
+  {menuItems.map((item) => (
+    <li
+      key={item}
+      onClick={() => {
+        setActiveItem(item);
+        setDropdownOpen(false); // close dropdown on click
+      }}
+      className="px-6 py-3 text-center transition duration-300 ease-in-out hover:bg-gray-800 rounded-lg"
+    >
+      <Link
+        to={item.toLowerCase()} // match section id
+        smooth={true}
+        duration={500}
+        offset={-70} // adjust for navbar height
+        spy={true} // track scroll position
+        onSetActive={() => setActiveItem(item)} // updates activeItem on scroll
+        className={`block cursor-pointer ${
+          activeItem === item
+            ? "text-orange-400 font-semibold"
+            : "text-white hover:text-gray-300"
+        }`}
+      >
+        {item}
+      </Link>
+    </li>
+  ))}
+</ul>
+
         </div>
       </div>
     </nav>
