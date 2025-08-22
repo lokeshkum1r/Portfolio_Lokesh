@@ -75,7 +75,7 @@ export default function Navbar() {
 
         {/* Mobile Dropdown with animation */}
         <div
-          className={`absolute right-0 mt-2 w-40 z-50 transition-all duration-300 origin-top ${dropdownOpen
+          className={`absolute right-0 mt-2 w-32 z-50 transition-all duration-300 origin-top ${dropdownOpen
             ? "scale-y-100 opacity-100 pointer-events-auto"
             : "scale-y-0 opacity-0 pointer-events-none"
             }`}
