@@ -20,22 +20,24 @@ const Intro = () => {
                         foundation in Data Structures and Algorithms, and a quick learner with a growth mindset.
                     </p>
                     <div className="flex justify-center items-end gap-4 h-46">
-                        <a className='px-8 py-4  bg-black text-white transition duration-300 cursor-pointer
-                         hover:bg-amber-600 '>
+                        <a >
                             <Link to="about"
                                 smooth={true}
                                 duration={500}
                                 offset={-70}
+                                className='px-8 py-4  bg-black text-white transition duration-300 cursor-pointer
+                         hover:bg-amber-600 '
                             >
                                 More About Me
                             </Link>
                         </a>
-                        <a className='px-8 py-4 bg-white text-black border border-black transition duration-200
-                         cursor-pointer hover:bg-black hover:text-white' >
+                        <a  >
                             <Link to="contact"
                                 smooth={true}
                                 duration={500}
                                 offset={-70}
+                                className='px-8 py-4 bg-white text-black border border-black transition duration-200
+                         cursor-pointer hover:bg-black hover:text-white'
                             >
                             Get In Touch
                             </Link>
@@ -58,22 +60,24 @@ const Intro = () => {
                     </p>
 
                     <div className="flex flex-col justify-center gap-4 h-96">
-                        <a className='px-8 py-4  bg-black text-white transition duration-300 cursor-pointer
-                         hover:bg-amber-600 '>
+                        <a >
                            <Link to="about"
                                 smooth={true}
                                 duration={500}
                                 offset={-70}
+                               className='px-8 py-4  bg-black text-white transition duration-300 cursor-pointer
+                         hover:bg-amber-600 '
                             >
                                 More About Me
                             </Link>
                         </a>
-                        <a className='px-8 py-4 bg-white text-black border border-black border-solid 
-                        transition duration-200 cursor-pointer hover:bg-black hover:text-white' >
+                        <a  >
                             <Link to="contact"
                                 smooth={true}
                                 duration={500}
                                 offset={-70}
+                                className='px-8 py-4 bg-white text-black border border-black border-solid 
+                        transition duration-200 cursor-pointer hover:bg-black hover:text-white'
                             >
                             Get In Touch
                             </Link>
