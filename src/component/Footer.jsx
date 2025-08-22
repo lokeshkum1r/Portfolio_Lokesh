@@ -126,13 +126,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="border-t border-gray-700 mt-8 pt-6 container mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
+      <div className="border-t border-gray-700 mt-8 pt-6 container mx-auto px-6 flex flex-col md:flex-row justify-center items-center text-gray-400 text-sm">
         <p>&copy; {new Date().getFullYear()} Lokesh Kumar. All rights reserved.</p>
-        <div className="flex space-x-6 mt-4 md:mt-0">
-          <a href="#" className="hover:text-white transition">Privacy Policy</a>
-          <a href="#" className="hover:text-white transition">Terms of Service</a>
-          <a href="#" className="hover:text-white transition">Contact</a>
-        </div>
       </div>
     </footer>
   );
