@@ -34,10 +34,7 @@ export default function Navbar() {
         {menuItems.map((item) => (
           <li
             key={item}
-            className={`transition ${activeItem === item
-              ? "text-blue-400 border-b-2 border-blue-400"
-              : "hover:text-gray-400"
-              }`}
+           
           >
             <Link
               to={item.toLowerCase()} // match section id
@@ -46,7 +43,10 @@ export default function Navbar() {
               offset={-70} // adjust for navbar height
               spy={true} // track scroll position
               onSetActive={() => setActiveItem(item)} // updates activeItem on scroll
-              className="cursor-pointer"
+               className={`transition cursor-pointer ${activeItem === item
+              ? "text-blue-400 border-b-2 border-blue-400"
+              : "hover:text-gray-400"
+              }`}
             >
               {item}
             </Link>
@@ -89,10 +89,6 @@ export default function Navbar() {
                   setActiveItem(item);
                   setDropdownOpen(false); // close dropdown on click
                 }}
-                className={`py-2 px-4 transition ${activeItem === item
-                  ? "bg-blue-600 text-white"
-                  : "hover:bg-gray-800"
-                  }`}
               >
                <Link
               to={item.toLowerCase()} // match section id
@@ -101,7 +97,10 @@ export default function Navbar() {
               offset={-70} // adjust for navbar height
               spy={true} // track scroll position
               onSetActive={() => setActiveItem(item)} // updates activeItem on scroll
-              className="cursor-pointer"
+              className={`transition cursor-pointer ${activeItem === item
+              ? "text-blue-400 border-b-2 border-blue-400"
+              : "hover:text-gray-400"
+              }`}
             >
               {item}
             </Link>
