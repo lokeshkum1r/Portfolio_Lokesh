@@ -43,7 +43,7 @@ export default function Navbar() {
               offset={-70} // adjust for navbar height
               spy={true} // track scroll position
               onSetActive={() => setActiveItem(item)} // updates activeItem on scroll
-               className={`transition cursor-pointer ${activeItem === item
+               className={`transition cursor-pointer select-none ${activeItem === item
               ? "text-blue-400 border-b-2 border-blue-400"
               : "hover:text-gray-400"
               }`}
