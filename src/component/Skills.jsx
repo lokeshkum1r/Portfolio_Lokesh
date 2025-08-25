@@ -105,8 +105,8 @@ export default function Skills() {
               </div>
 
               {/* Back */}
-              <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-800 rounded-xl shadow-lg p-4 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                <h3 className="text-lg font-semibold mb-2 text-blue-400 select-none">
+              <div className="absolute inset-0 flex flex-col items-center select-none justify-center bg-gray-800 rounded-xl shadow-lg p-4 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                <h3 className="text-lg font-semibold mb-2 text-blue-400 ">
                   {c.title}
                 </h3>
                 <p className="text-sm text-gray-300">{c.desc}</p>
