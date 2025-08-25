@@ -94,7 +94,7 @@ export default function Skills() {
           >
             <div className="relative w-full h-full rounded-xl shadow-xl transition-transform duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               {/* Front */}
-              <div className="absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-br from-gary-300 to-blue-200 rounded-xl shadow-lg p-6 [backface-visibility:hidden]">
+              <div className="absolute inset-0 flex flex-col items-center justify-center select-none bg-gradient-to-br from-gary-300 to-blue-200 rounded-xl shadow-lg p-6 [backface-visibility:hidden]">
                 <img
                   src={c.img}
                   alt={c.title}
