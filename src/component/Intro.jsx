@@ -87,7 +87,7 @@ const Intro = () => {
                 </div>
                 <div className='absolute bottom-10 lg:bottom-20 left-10 text-center p-4'>
                     <div className="bg-white h-0.5 w-20 lg:w-32 absolute top-7 left-[-64px] lg:left-[-112px]"></div>
-                    <a href="https://drive.google.com/file/d/1QHUFR1nmDSIVx_gkWkHeu-8kupQWyDfg/view?usp=sharing"
+                    <a href="https://drive.google.com/file/d/1hiDRIJ8M5KHieWoaZssoPdLfpcPCagv-/view?usp=sharing"
                         target='_blank'
                         rel="noopener noreferrer"
                         download="Lokesh-CV.pdf"
