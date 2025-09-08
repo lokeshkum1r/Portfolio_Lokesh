@@ -57,7 +57,7 @@ const About = () => {
               </p>
               <div className="mt-3 flex justify-between">
                 <a
-                  href="https://findmy-helper.vercel.app/"
+                  href="https://findmy-helper-9ewn.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-200"
